@@ -3,4 +3,10 @@
   --colorTextSecondary: #7d7d7d;
   --colorTextTertiary: #b4ad9e;
   --colorTextHover: #03a9f4;
+  /*Шрифти*/
+  --fontTextPrimary: "Playfair Display", serif;
+  --fontTextSecondary: "Ubuntu", sans-serif;
+}
+body {
+  font-family: var(--fontTextPrimary);
 }
