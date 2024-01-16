@@ -9,4 +9,34 @@
 }
 body {
   font-family: var(--fontTextPrimary);
+  color: var(--colorTextPrimary);
+  font-size: 14px;
+  font-weight: 400;
+}
+/* Прибираємо нижнє підкреслення в усіx посилань */
+a {
+  text-decoration: none;
+}
+/*Прибираємо крапки у списків*/
+ul {
+  list-style: none;
+}
+
+.menu-link {
+  color: var(--colorTextSecondary);
+}
+.photocard-category {
+  font-family: var(--fontTextSecondary);
+  color: var(--colorTextTertiary);
+  font-weight: 300;
+}
+.photocard-title {
+  font-size: 30px;
+  font-weight: 400;
+}
+.photoblog-button {
+  font-family: inherit;
+  color: inherit;
+  font-size: 14px;
+  font-weight: 400;
 }
