@@ -13,13 +13,25 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
-/* Прибираємо нижнє підкреслення в усіx посилань */
-a {
-  text-decoration: none;
+.container {
+  max-width: 936px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
-/*Прибираємо крапки у списків*/
-ul {
-  list-style: none;
+.header {
+  padding-top: 67px;
+  padding-bottom: 96px;
+}
+.header-menu {
+  max-width: 555px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu-link {
