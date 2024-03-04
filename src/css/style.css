@@ -3,6 +3,7 @@
   --colorTextSecondary: #7d7d7d;
   --colorTextTertiary: #b4ad9e;
   --colorTextHover: #03a9f4;
+  --colorButton: #ffffff;
   /*Шрифти*/
   --fontTextPrimary: "Playfair Display", serif;
   --fontTextSecondary: "Ubuntu", sans-serif;
@@ -24,11 +25,13 @@ body {
   padding-top: 67px;
   padding-bottom: 96px;
 }
+
 .header-menu {
   max-width: 555px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .menu-list {
   display: flex;
   justify-content: space-between;
@@ -37,18 +40,56 @@ body {
 .menu-link {
   color: var(--colorTextSecondary);
 }
+
+.menu-link:hover {
+  color: var(--colorTextHover);
+}
+
+.photoblog {
+  padding-bottom: 66px;
+}
+.photoblog-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 94px;
+  align-items: center;
+}
+.photoblog-photocards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 65px;
+  row-gap: 130px;
+}
+.photocard {
+  width: 420px;
+}
+.photocard-img {
+  margin-bottom: 62px;
+}
+
 .photocard-category {
   font-family: var(--fontTextSecondary);
   color: var(--colorTextTertiary);
   font-weight: 300;
+  margin-bottom: 32px;
+  display: block;
 }
 .photocard-title {
   font-size: 30px;
   font-weight: 400;
+  margin-bottom: 40px;
 }
+
 .photoblog-button {
   font-family: inherit;
   color: inherit;
   font-size: 14px;
   font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 49px;
+  padding-right: 49px;
+  background-color: var(--colorButton);
+  outline: none;
+  border: solid 1px var(--colorTextPrimary);
 }
