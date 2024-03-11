@@ -61,10 +61,11 @@ body {
   row-gap: 130px;
 }
 .photocard {
-  width: 420px;
+  flex-basis: calc((100 - 65px) / 2);
 }
 .photocard-img {
   margin-bottom: 62px;
+  width: 100%;
 }
 
 .photocard-category {
